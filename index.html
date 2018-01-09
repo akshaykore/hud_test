@@ -9,16 +9,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="js/annyang.min.js"></script>
     <script src="js/screenfull.js"></script>
-    <script>
-    const el = document.getElementById('wrapper');
-    document.getElementById('footerinfo').addEventListener('click', () => {
-if (screenfull.enabled) {
-  screenfull.request(el);
-} else {
-  // Ignore or do something else
-}
-});
-    </script>
+
 
 </head>
 
@@ -72,7 +63,16 @@ if (screenfull.enabled) {
 
 
     <script src="js/voice.js"></script>
-
+    <script>
+    const el = document.getElementById('wrapper');
+    document.getElementById('footerinfo').addEventListener('click', () => {
+if (screenfull.enabled) {
+  screenfull.request(el);
+} else {
+  // Ignore or do something else
+}
+});
+    </script>
 </div>
 
 </body>
