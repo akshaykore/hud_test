@@ -7,4 +7,6 @@ function navigate(){
     var navigation_wrapper = document.getElementById('navigation');
       navigation_wrapper.appendChild(navigation_image);
 
+    console.console.log("navigating...");  
+
 }

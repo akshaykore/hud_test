@@ -1,6 +1,6 @@
 body{
-    background-color: white;
-    color: green;
+    background-color: black;
+    color: white;
 }
 
 /*HUD
@@ -37,7 +37,7 @@ body {
 }
 
 #wrapper{
-  background-color: red;
+  background-color: black;
   position: fixed;
   top: 0px;
   left: 0px;
