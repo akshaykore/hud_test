@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    padding: 3%;
 }
 
 /*HUD
@@ -26,7 +27,7 @@ body {
     font-weight: 400;
 
 }
-*/ 
+*/
 
 /*HUD*/
 .hud{
@@ -167,17 +168,18 @@ body {
 }
 
 /*navigate*/
-#navigate{
-  position: fixed;
-  width: 100%;
-  align: center;
-}
 
 .navigate_gif{
   position: fixed;
-  width: 50%;
-  bottom: 120px;
-  right: 100px;
+  width: 60%;
+  top: 40px;
+  right: 17.5%;
+}
+
+#navigation{
+position: fixed;
+bottom: 10%;
+width: 94%;
 }
 
 /*footer*/

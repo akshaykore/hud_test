@@ -12,4 +12,4 @@ var clearall = function(){
 
 var reloadfunction = function(){location.reload();}
 
-setInterval(reloadfunction, 150000);
+//setInterval(reloadfunction, 150000);
