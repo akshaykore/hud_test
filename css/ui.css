@@ -1,0 +1,186 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 3%;
+}
+
+/*HUD
+body {
+
+        /-moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+      }
+
+
+/*
+#generalinfo{
+    font-family: 'Source-serif';
+    font-weight: 400;
+
+}
+
+
+#answers{
+    font-family: 'Comfortaa';
+    font-weight: 400;
+
+}
+*/
+
+/*HUD*/
+.hud{
+  /-moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+
+/*general info*/
+
+#generalinfo{
+    position: fixed;
+    font-family: 'Comfortaa';
+
+    text-align: right;
+    width: 94%;
+
+
+}
+
+#time{
+    font-size: 2em;
+    padding-bottom: 5px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+
+}
+
+#date{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+    font-weight: 100;
+    word-spacing: 5px;
+}
+
+#weather{
+    font-size: 0.8em;
+    //padding-right: 3%;
+    font-weight: 700;
+    word-spacing: 2px;
+    position: fixed;
+    width: 94%;
+    right: 3%;
+    bottom: 3%
+}
+
+/*answers - wiki*/
+
+#wiki{
+    position: fixed;
+    top: 37%;
+    text-align: left;
+    width: 94%;
+
+}
+
+#wikititle{
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 2em;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#wikianswer{
+    font-family: 'Source-serif';
+    font-weight: 100;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#wikisource{
+    font-family: 'Source-serif';
+    font-weight: 100;
+    font-size: 0.8em;
+    padding-left: 15%;
+    padding-right: 15%;
+    opacity: 0.6;
+
+}
+
+
+/*answers - mirror*/
+
+#mirror{
+    position: fixed;
+    top: 40%;
+    width: 94%;
+}
+
+#mirrorquestion{
+    font-family: 'Comfortaa';
+    font-weight: 100;
+    text-align: left;
+    font-size: 0.8em;
+    padding-bottom: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 1.3em;
+
+}
+
+#mirroranswer{
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.5em;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 1.3em;
+
+}
+
+
+/*greeting*/
+
+#greeting{
+    position: fixed;
+    top: 45%;
+    width: 94%;
+    font-family: 'Comfortaa';
+    font-weight: 100;
+    text-align: center;
+    font-size: 4em;
+
+}
+
+/*navigate*/
+#navigate{
+  position: fixed;
+  width: 100%;
+  align: center;
+}
+
+.navigate_gif{
+  position: fixed;
+  width: 50%;
+  bottom: 120px;
+  right: 100px;
+}
+
+/*footer*/
+
+#footerinfo{
+    position: fixed;
+    bottom: 2.6%;
+    width: 94%;
+    font-family: 'Comfortaa';
+    font-weight: 100;
+    font-size: 0.8em;
+}
