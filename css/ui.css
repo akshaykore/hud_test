@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color: white;
+    color: yellow;
 }
 
 /*HUD
@@ -34,7 +34,6 @@ body {
   -o-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
-  color: white;
 }
 
 /*general info*/
