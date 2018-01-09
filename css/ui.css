@@ -36,6 +36,10 @@ body {
   transform: scaleY(-1);
 }
 
+#wrapper{
+  background-color: black;
+}
+
 /*general info*/
 
 #generalinfo{
